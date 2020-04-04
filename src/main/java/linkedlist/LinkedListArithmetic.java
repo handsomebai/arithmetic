@@ -47,6 +47,52 @@ public class LinkedListArithmetic extends SingleLinkedList {
     }
 
     /**
+     * 单链表反转 递归实现
+     *
+     * 递归的基础套路:
+     * 1、找到递推公式
+     * 2、找到递推公式最后一层的退出条件
+     *
+     * 思路:
+     * 1、递推公式
+     *  a. 第二个节点反转后，第一个节点反转一下
+     *  b. 第三个节点反转后，第二个节点再反转
+     *  c. 第n个节点反转后，第n-1个节点反转
+     *  d. f(n-1) = f(n)
+     *
+     * 2、最后一层的退出条件
+     *  当前节点为null的时候跳出
+     */
+    public static Node reverseByRecursion(Node head) {
+
+        /**
+         * 如果下个节点为null 跳出递归 返回头指针
+         */
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        /**
+         * 调用完之后后面的节点都已经反转完了
+         */
+        Node node = reverseByRecursion(head.next);
+
+        /**
+         * 接下来就是让第一个节点 和 后续的子节点 连起来就可以
+         *
+         * 怎么连起来
+         * 1、让第一个节点的下个节点 指向 第一个节点
+         * 2、第一个节点的指向null
+         */
+        head.next.next = head;
+        head.next = null;
+
+        return node;
+    }
+
+
+
+    /**
      * 环检测
      *
      * 思路：
@@ -218,6 +264,10 @@ public class LinkedListArithmetic extends SingleLinkedList {
         list1.insertToTail(4);
         list1.print();
         list1.head = reverse(list1.head);
+        list1.print();
+        System.out.println("======================================");
+        System.out.println();
+        list1.head = reverseByRecursion(list1.head);
         list1.print();
         System.out.println("======================================");
         System.out.println();
