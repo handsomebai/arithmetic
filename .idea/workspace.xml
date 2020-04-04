@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="050e299c-d11b-4212-8d5a-d802a332a004" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorts/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorts/SimpleSorts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedlist/LinkedListArithmetic.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,8 +86,8 @@
       <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorts/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-58">
-              <caret line="49" column="79" lean-forward="true" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
+            <state relative-caret-position="475">
+              <caret line="108" column="5" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="108" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -414,12 +411,12 @@
       <workItem from="1585193822714" duration="9000" />
       <workItem from="1585206410881" duration="22550000" />
       <workItem from="1585723966695" duration="390000" />
-      <workItem from="1585730557821" duration="13277000" />
+      <workItem from="1585730557821" duration="13842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46428000" />
+    <option name="totallyTimeSpent" value="46993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,8 +442,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32918552" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21040724" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918552" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21040724" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918552" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
@@ -734,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorts/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="49" column="79" lean-forward="true" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
+        <state relative-caret-position="475">
+          <caret line="108" column="5" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="108" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -100,7 +100,7 @@ public class MergeSort {
 
     public static void main(String[] args) {
 
-        System.out.println("=============冒泡排序=================");
+        System.out.println("=============归并排序=================");
         int[] list1 = new int[]{4, 5, 6, 7, 1, 2, 4, 9};
         mergeSort(list1, 0, list1.length - 1);
         System.out.println(Arrays.toString(list1));
