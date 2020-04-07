@@ -37,7 +37,6 @@ public class QuickSort {
          */
         quickSort(list, startIndex, middleIndex - 1);
         quickSort(list, middleIndex + 1, endIndex);
-
     }
 
     public static int partition(int[] list, int startIndex, int endIndex) {
@@ -103,7 +102,7 @@ public class QuickSort {
     public static void main(String[] args) {
 
         System.out.println("=============快速排序=================");
-        int[] list1 = new int[]{4, 5, 6, 7, 1, 2, 4, 9};
+        int[] list1 = new int[]{4, 6, 7, 5, 1, 2, 9, 4};
         quickSort(list1, 0, list1.length - 1);
         System.out.println(Arrays.toString(list1));
         System.out.println("======================================");
