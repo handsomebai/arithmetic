@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="050e299c-d11b-4212-8d5a-d802a332a004" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorts/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorts/QuickSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,8 +95,8 @@
       <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorts/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="96">
+              <caret line="87" column="11" lean-forward="true" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -423,12 +422,12 @@
       <workItem from="1585206410881" duration="22550000" />
       <workItem from="1585723966695" duration="390000" />
       <workItem from="1585730557821" duration="22071000" />
-      <workItem from="1586226125775" duration="2576000" />
+      <workItem from="1586226125775" duration="4640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57798000" />
+    <option name="totallyTimeSpent" value="59862000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,7 +440,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="981" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32918552" />
@@ -455,7 +453,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32918552" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3382353" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918552" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918552" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26495728" />
@@ -540,7 +538,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sorts/QuickSort.java</url>
-          <line>95</line>
+          <line>94</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
@@ -831,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorts/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="96">
+          <caret line="87" column="11" lean-forward="true" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
         </state>
       </provider>
     </entry>
