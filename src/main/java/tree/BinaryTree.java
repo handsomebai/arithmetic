@@ -152,10 +152,10 @@ public class BinaryTree {
             visited(current);
             //在将自己的所有节点一次入队列
             if (current.leftChild != null) {
-                queue.add(current.leftChild);
+                queue.addLast(current.leftChild);
             }
             if (current.rightChild != null) {
-                queue.add(current.rightChild);
+                queue.addLast(current.rightChild);
             }
         }
     }
