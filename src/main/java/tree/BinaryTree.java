@@ -1,6 +1,6 @@
 package tree;
 
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @author fanbaicheng
@@ -138,6 +138,29 @@ public class BinaryTree {
     }
 
     /**
+     * 层序遍历
+     */
+    public static void layerOrder(TreeNode node) {
+
+        ArrayDeque<TreeNode> queue = new ArrayDeque<>();
+        queue.addLast(node);
+
+        while (!queue.isEmpty()) {
+
+            TreeNode current = queue.pop();
+            // 先打印自己
+            visited(current);
+            //在将自己的所有节点一次入队列
+            if (current.leftChild != null) {
+                queue.add(current.leftChild);
+            }
+            if (current.rightChild != null) {
+                queue.add(current.rightChild);
+            }
+        }
+    }
+
+    /**
      * 打印节点
      */
     private static void visited(TreeNode node) {
@@ -252,6 +275,10 @@ public class BinaryTree {
         System.out.println("=====================================");
         System.out.println("=============后续遍历 非递归=================");
         noRecPostOrder(root);
+        System.out.println("=====================================");
+
+        System.out.println("=============层序遍历 非递归=================");
+        layerOrder(root);
         System.out.println("=====================================");
     }
 }
