@@ -163,7 +163,7 @@ public class BinaryTree {
     /**
      * 打印节点
      */
-    private static void visited(TreeNode node) {
+    public static void visited(TreeNode node) {
         node.isVisited = true;
         System.out.println(node.data+","+node.key);
     }
@@ -237,13 +237,12 @@ public class BinaryTree {
     /**
      * 节点数据结构
      */
-    private static class TreeNode {
-        private int key = 0;
-        private String data = null;
-        private boolean isVisited = false;
-        private TreeNode leftChild = null;
-        private TreeNode rightChild = null;
-
+    public static class TreeNode {
+        public int key = 0;
+        public String data = null;
+        public boolean isVisited = false;
+        public TreeNode leftChild = null;
+        public TreeNode rightChild = null;
 
         public TreeNode(){}
 

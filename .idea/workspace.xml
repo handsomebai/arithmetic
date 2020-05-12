@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="050e299c-d11b-4212-8d5a-d802a332a004" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/BinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="159" column="9" lean-forward="true" selection-start-line="144" selection-start-column="8" selection-end-line="159" selection-end-column="9" />
+            <state relative-caret-position="173">
+              <caret line="165" column="30" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="30" />
               <folding>
                 <element signature="e#3892#3893#0" expanded="true" />
                 <element signature="e#3919#3920#0" expanded="true" />
@@ -46,6 +48,15 @@
                 <element signature="e#4020#4021#0" expanded="true" />
                 <element signature="e#4068#4069#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
             </state>
           </provider>
         </entry>
@@ -71,8 +82,8 @@
       <file leaf-file-name="SingleLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/SingleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="231" column="9" selection-start-line="231" selection-start-column="9" selection-end-line="231" selection-end-column="9" />
+            <state relative-caret-position="182">
+              <caret line="224" column="24" selection-start-line="224" selection-start-column="24" selection-end-line="224" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -80,17 +91,8 @@
       <file leaf-file-name="PalindromeList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/PalindromeList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedListArithmetic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/LinkedListArithmetic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4020">
-              <caret line="268" column="29" selection-start-line="267" selection-start-column="8" selection-end-line="268" selection-end-column="29" />
+            <state relative-caret-position="1740">
+              <caret line="116" column="44" selection-start-line="116" selection-start-column="44" selection-end-line="116" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -147,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/main/java/search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorts/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -167,8 +170,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-35" />
-    <option name="y" value="-1175" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="981" />
   </component>
@@ -292,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.BinarySearchTree">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
       <module name="arithmetic" />
@@ -300,6 +302,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinarySearchTree" />
+      <module name="arithmetic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,17 +341,6 @@
     </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorts.QuickSort" />
-      <module name="arithmetic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SimpleSorts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorts.SimpleSorts" />
       <module name="arithmetic" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -449,19 +451,19 @@
       </ConfigurationWrapper>
     </configuration>
     <list>
-      <item itemvalue="Application.SimpleSorts" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="Application.BinarySearchTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.SimpleSorts" />
       </list>
     </recent_temporary>
   </component>
@@ -482,12 +484,12 @@
       <workItem from="1585730557821" duration="22071000" />
       <workItem from="1586226125775" duration="4640000" />
       <workItem from="1588849686972" duration="8011000" />
-      <workItem from="1589163429818" duration="6060000" />
+      <workItem from="1589163429818" duration="11343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73933000" />
+    <option name="totallyTimeSpent" value="79216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,7 +501,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-35" y="-1175" width="1680" height="981" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -514,10 +516,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32918552" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30429864" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918552" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -617,13 +619,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorts/SimpleSorts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="29" selection-start-line="83" selection-start-column="4" selection-end-line="90" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorts/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1620">
@@ -908,20 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/PalindromeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/SingleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="231" column="9" selection-start-line="231" selection-start-column="9" selection-end-line="231" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorts/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -943,10 +924,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/SingleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="224" column="24" selection-start-line="224" selection-start-column="24" selection-end-line="224" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlist/PalindromeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="116" column="44" selection-start-line="116" selection-start-column="44" selection-end-line="116" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="159" column="9" lean-forward="true" selection-start-line="144" selection-start-column="8" selection-end-line="159" selection-end-column="9" />
+        <state relative-caret-position="173">
+          <caret line="165" column="30" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="30" />
           <folding>
             <element signature="e#3892#3893#0" expanded="true" />
             <element signature="e#3919#3920#0" expanded="true" />
@@ -955,6 +950,13 @@
             <element signature="e#4020#4021#0" expanded="true" />
             <element signature="e#4068#4069#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
         </state>
       </provider>
     </entry>
